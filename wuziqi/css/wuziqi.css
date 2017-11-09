@@ -1,0 +1,208 @@
+body {
+    width: 1500px;
+    height: 700px;
+    background-image: url("../img/beijing.jpg");
+    background-size: cover;
+}
+
+#huanying {
+    text-align: center;
+    line-height: 150px;
+}
+
+#huanying h2 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 50px;
+    font-family: "幼圆";
+    color: red;
+}
+
+#huanying h3 {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 30px;
+    font-family: "幼圆";
+    color: orangered;
+    cursor: pointer;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background-image: url("../img/xiazai.jpg");
+    display: none;
+}
+
+#runstart {
+    display: none;
+}
+
+#anniu {
+    width: 300px;
+    height: 300px;
+    /*background: orange;*/
+    margin-top: 100px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+
+.anjian {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: green;
+    margin: 10px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    cursor: pointer;
+}
+
+#start {
+    display: none;
+}
+
+#moshi {
+    float: left;
+    margin-top: 30px;
+    display: none;
+}
+
+.moshi {
+    width: 100%;
+    font-size: 24px;
+    font-family: "华文琥珀";
+    color: orange;
+}
+
+@keyframes show {
+    0% {
+        transform: scale(0.1, 0.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.show {
+    display: block;
+    animation: show 1.5s cubic-bezier(0.670, 0.000, 0.415, 1.000);
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 999;
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0;
+    display: none;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.imgbox {
+    width: 600px;
+    height: 600px;
+    margin-top: -220px;
+    background-image: url("../img/xiazai.jpg");
+    float: right;
+    display: none;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+}
+
+#yxms {
+    display: none;
+}
+
+.anjian2 {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: green;
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    cursor: pointer;
+}
+
+.anjian3 {
+    margin-left: 600px;
+}
+
+.xuanze {
+    margin: 10px;
+    font-size: 24px;
+    float: left;
+}
+
+.wenzi {
+    font-size: 36px;
+    font-family: "华文楷体";
+    float: left;
+}
+
+.xz {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    float: right;
+    cursor: pointer;
+}
+#xiazai{
+    display: none;
+}
+.yinyue{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: music 2s ease infinite alternate;
+    position: absolute;
+    top:30px;
+    right: 200px;
+    cursor: pointer;
+}
+img{
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+@keyframes music {
+    0% {
+        transform: scale(1,1);
+    }
+    33%{
+        transform: scale(1.1,1.1);
+
+    }
+    66%{
+        transform: scale(1,1);
+
+    }
+    100% {
+        transform: scale(1.1,1.1);
+    }
+}
+

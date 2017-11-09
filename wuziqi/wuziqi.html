@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/wuziqi.css">
+</head>
+<body>
+<div>
+    <div id="huanying">
+        <h2>五子棋大战</h2>
+        <h3>一触即发</h3>
+    </div>
+    <div id="anniu">
+        <input type="button" id="start" class="anjian" value="开始游戏">
+        <input type="button" id="yxms" class="anjian" value="游戏模式">
+        <div id="moshi">
+            <div  class="xuanze">
+                <div class="wenzi">
+                    玩家对战
+                </div>
+                <input type="radio" value="" name="mode" id="wj" class="xz" checked>
+            </div>
+            <div class="xuanze">
+                <div class="wenzi">
+                    人机对战
+                </div>
+                <input type="radio" value="" name="mode" class="xz" id="ai">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <canvas width="600" height="600"></canvas>
+    </div>
+    <div class="mask">
+        <h1></h1>
+        <div class="box">
+            <input type="button" id="runstart" class="anjian2 anjian3" value="重新开始">
+            <input type="button" id="output" class="anjian2" value="生成棋谱" >
+            <a href="" id="xiazai" class="anjian2">下载</a>
+        </div>
+
+        <div class="imgbox"></div>
+    </div>
+</div>
+<div class="yinyue">
+    <img src="img/yinyue.png" alt="">
+    <audio src="img/hongri.mp3" autoplay></audio>
+</div>
+</body>
+<script src="js/wuziqi.js"></script>
+</html>
